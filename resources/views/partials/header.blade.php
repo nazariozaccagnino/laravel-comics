@@ -13,55 +13,55 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'characters' ? 'active' : '' }}"
-                        href="{{route('home')}}">
+                        href="{{route('characters')}}">
                         Characters
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'movies' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('movies')}}">
                         Movies
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'tv' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('tv')}}">
                         TV
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'games' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('games')}}">
                         Games
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'collectibles' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('collectibles')}}">
                         Collectibles
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'videos' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('videos')}}">
                         Videos
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'fans' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('fans')}}">
                         Fans
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'news' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('news')}}">
                         News
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'shop' ? 'active' : '' }}"
-                        href="{{route('about')}}">
+                        href="{{route('shop')}}">
                         Shop
                     </a>
                 </li>
