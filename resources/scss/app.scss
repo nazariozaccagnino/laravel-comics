@@ -1,4 +1,4 @@
-@use  './partials/_variables.scss' as *;
+@use './partials/_variables.scss' as *;
 
 $fa-font-path: "../webfonts" !default;
 
@@ -9,20 +9,22 @@ $fa-font-path: "../webfonts" !default;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
-h1{
+h1 {
     color: $text-color;
 }
-.jumbo img{
+
+.jumbo img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     object-position: top 0px left 0px;
 }
 
-main{
+main {
     background-color: $mainbackground;
     color: white;
 }
+
 header {
 
     .navbar-nav .nav-link.active {
@@ -30,14 +32,45 @@ header {
         color: $text-color;
     }
 }
-.thumb{
+
+.thumb {
     height: 400px;
 }
-footer{
-    
-}
-#products {
-    .card-img-top {
-        aspect-ratio: 1 / 1.2;
+
+#topfooter {
+    background-color: $topfooterbackground;
+    padding: 20px;
+
+    h5 {
+        text-transform: uppercase;
+        color: white;
     }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}
+
+#middlefooter {
+    background-image: url(/resources/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    #bigdclogo {
+        overflow: hidden;
+
+    }
+
+    #bigdclogo img {
+        width: 70%;
+        transform: scale(1.3) translate(50px, 0px);
+    }
+
+}
+
+#bottomfooter {
+    background-color: $bottomfooterbackground;
+    color: white;
 }

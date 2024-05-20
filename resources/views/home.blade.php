@@ -11,7 +11,7 @@
         @foreach ($comics as $items)
             <div class="row">
                 <div class="col p-2 m-2">
-                    <div class="card h-100">
+                    <div class="card">
                         <img src="{{$items['thumb']}}" class="card-img-top thumb" alt="descr">
                         <div class="card-body">
                             <h6 class="card-title">{{$items['series']}}</h6>
