@@ -10,11 +10,11 @@
     <div class="container d-flex flex-wrap">
         @foreach ($comics as $items)
             <div class="row">
-                <div class="col d-flex align-items-stretch p-2 m-2">
-                    <div class="card">
-                        <img src="{{$items['thumb']}}" class="card-img-top thumb" style="width: 18rem;" alt="descr">
+                <div class="col p-2 m-2">
+                    <div class="card h-100">
+                        <img src="{{$items['thumb']}}" class="card-img-top thumb" alt="descr">
                         <div class="card-body">
-                            <!-- <h5 class="card-title">{{$items['title']}}</h5> -->
+                            <h6 class="card-title">{{$items['series']}}</h6>
                             <!-- <p class="card-text">{{$items['description']}}</p> -->
                         </div>
                     </div>
